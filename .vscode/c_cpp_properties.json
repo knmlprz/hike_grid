@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rafal/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/rafal/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/rafal/hike_grid/src/vendor/ldrobot-lidar-ros2/ldlidar_component/include/**",
+        "/home/rafal/hike_grid/src/vendor/ros_aruco_opencv/aruco_opencv/include/**",
+        "/home/rafal/hike_grid/src/vendor/vision_opencv/cv_bridge/include/**",
+        "/home/rafal/hike_grid/src/vendor/vision_opencv/image_geometry/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
